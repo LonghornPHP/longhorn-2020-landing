@@ -8,10 +8,10 @@
     .logo {
         max-height: 40px;
         width: auto;
+    }
 
-        &.logo-dark {
-            display: none;
-        }
+    .logo-light {
+        display: none;
     }
 
     .navbar-toggler {
@@ -41,6 +41,13 @@
         }
     }
     @media (min-width: 992px) {
+        .logo-light {
+            display: block;
+        }
+        .logo-dark {
+            display: none;
+        }
+
         border-color: transparent;
         background-color: transparent;
         .navbar-brand {
@@ -76,3 +83,4 @@
         }
     }
 }
+

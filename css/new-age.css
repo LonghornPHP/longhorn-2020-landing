@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - New Age v5.0.7 (https://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
@@ -73,7 +73,7 @@ section h2 {
   width: auto;
 }
 
-#mainNav .logo.logo-dark {
+#mainNav .logo-light {
   display: none;
 }
 
@@ -111,6 +111,12 @@ section h2 {
   #mainNav {
     border-color: transparent;
     background-color: transparent;
+  }
+  #mainNav .logo-light {
+    display: block;
+  }
+  #mainNav .logo-dark {
+    display: none;
   }
   #mainNav .navbar-brand {
     color: fade(white, 70%);
