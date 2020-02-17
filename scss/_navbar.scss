@@ -22,7 +22,6 @@
     .navbar-nav {
         > li {
             > a {
-                @include alt-font;
                 &.active {
                     color: $theme-primary !important;
                     background-color: transparent;

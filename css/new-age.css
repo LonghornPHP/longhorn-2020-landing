@@ -51,11 +51,11 @@ p {
   margin-bottom: 20px;
 }
 
-section {
+body > section {
   padding: 100px 0;
 }
 
-section h2 {
+body > section h2 {
   font-size: 50px;
 }
 
@@ -81,11 +81,6 @@ section h2 {
   font-size: 12px;
   padding: 8px 10px;
   color: #222222;
-}
-
-#mainNav .navbar-nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  letter-spacing: 2px;
 }
 
 #mainNav .navbar-nav > li > a.active {
@@ -213,8 +208,8 @@ header.masthead .read-more {
 }
 
 section.sign-up {
-  background-color: #FFFFFF;
-  color: #333333;
+  background-color: #b6a7d0;
+  color: #000;
 }
 
 footer {
@@ -257,11 +252,6 @@ footer a:hover, footer a:active {
   color: white;
   border-color: #4f5b93;
   background-color: #4f5b93;
-}
-
-.btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  letter-spacing: 2px;
 }
 
 .btn-xl {
